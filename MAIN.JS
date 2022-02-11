@@ -2,6 +2,10 @@ leftWristX = 0;
 leftWristY = 0;
 rightWristX = 0;
 rightWristY = 0;
+song1 = "";
+function preload(){
+song1 = loadSound("music.mp3")
+}
 function setup(){
 
     video = createCapture(VIDEO)
